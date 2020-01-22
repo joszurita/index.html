@@ -1,0 +1,33 @@
+#contenedor{
+    border: 1px solid black;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   background-color: #e1f2fb;
+ }
+#bombero{
+float: left;
+border: 1px solid black; 
+}
+#agregarBombero{
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 1px solid #000000;
+}
+#motobomba{
+float: right; 
+border: 1px solid black;
+ }
+ #agregarMotobombas{
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 1px solid #000000;
+ }
+ #tablaBombero{
+    border: 1px solid black;
+ }
+ #tablaMotobomba{
+    border: 1px solid black;
+ }
